@@ -1,0 +1,67 @@
+.containerr {
+  position: absolute;
+
+  left: 550px;
+  top: 200px;
+  bottom: 100px;
+  border-radius: 16px;
+}
+
+@media (min-width: 0px) and (max-width: 280px) {
+  .containerr {
+    top: 20%;
+    left: -35%;
+    transform: scale(0.5);
+  }
+}
+@media (min-width: 281px) and (max-width: 320px) {
+  .containerr {
+    left: -25%;
+    transform: scale(0.6);
+  }
+}
+@media (min-width: 321px) and (max-width: 360px) {
+  .containerr {
+    left: -17%;
+    transform: scale(0.7);
+  }
+}
+@media (min-width: 361px) and (max-width: 375px) {
+  .containerr {
+    top: 20%;
+    left: -15%;
+    transform: scale(0.7);
+  }
+}
+@media (min-width: 376px) and (max-width: 411px) {
+  .containerr {
+    top: 24%;
+    left: -9%;
+    transform: scale(0.8);
+  }
+}
+@media (min-width: 412px) and (max-width: 540px) {
+  .containerr {
+    top: 25%;
+    left: -8%;
+    transform: scale(0.8);
+  }
+}
+@media (min-width: 541px) and (max-width: 767px) {
+  .containerr {
+    left: -8%;
+    transform: scale(0.8);
+  }
+}
+@media (min-width: 768px) and (max-width: 1020px) {
+  .containerr {
+    left: 18%;
+    transform: scale(1);
+  }
+}
+@media (min-width: 1020px) and (max-width: 1366px) {
+  .containerr {
+    left: 27%;
+    transform: scale(1.1);
+  }
+}

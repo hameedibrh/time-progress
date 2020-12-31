@@ -1,0 +1,151 @@
+.container {
+  position: absolute;
+
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.quote {
+  position: absolute;
+  left: 5%;
+  top: 15%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 22px;
+  text-align: center;
+  width: 90%;
+  color: #000000;
+}
+.quoteBox {
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  top: 85%;
+
+  background: #c4c4c4;
+}
+
+.author {
+  position: relative;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  top: 8px;
+
+  color: #000000;
+}
+
+@media (min-width: 0px) and (max-width: 280px) {
+  .quoteBox {
+    top: 110%;
+    height: 20%;
+  }
+  .quote {
+    font-size: 16px;
+  }
+  .author {
+    font-size: 14px;
+  }
+}
+@media (min-width: 281px) and (max-width: 320px) {
+  .quoteBox {
+    top: 160%;
+    height: 20%;
+  }
+  .quote {
+    font-size: 16px;
+  }
+  .author {
+    font-size: 14px;
+  }
+}
+@media (min-width: 321px) and (max-width: 360px) {
+  .quoteBox {
+    top: 150%;
+    height: 20%;
+  }
+  .quote {
+    font-size: 16px;
+  }
+  .author {
+    font-size: 14px;
+  }
+}
+@media (min-width: 361px) and (max-width: 375px) {
+  .quoteBox {
+    top: 120%;
+    height: 20%;
+  }
+  .quote {
+    font-size: 16px;
+  }
+  .author {
+    font-size: 14px;
+  }
+}
+@media (min-width: 376px) and (max-width: 411px) {
+  .quoteBox {
+    top: 130%;
+    height: 20%;
+  }
+  .quote {
+    font-size: 16px;
+  }
+  .author {
+    font-size: 14px;
+  }
+}
+@media (min-width: 412px) and (max-width: 540px) {
+  .quoteBox {
+    top: 150%;
+    height: 20%;
+  }
+  .quote {
+    font-size: 16px;
+  }
+  .author {
+    font-size: 14px;
+  }
+}
+@media (min-width: 541px) and (max-width: 767px) {
+  .quoteBox {
+    top: 150%;
+    height: 20%;
+  }
+  .quote {
+    font-size: 16px;
+  }
+  .author {
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1020px) {
+  .quoteBox {
+    top: 110%;
+    height: 150px;
+  }
+  .quote {
+    font-size: 16px;
+  }
+  .author {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1020px) and (max-width: 1366px) {
+  .quoteBox {
+    top: 90%;
+    height: 150px;
+  }
+  .quote {
+    font-size: 16px;
+  }
+  .author {
+    font-size: 14px;
+  }
+}
